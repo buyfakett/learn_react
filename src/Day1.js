@@ -37,7 +37,7 @@ const style = {
     color: 'red',
 }
 
-function App() {
+function Day1() {
     const onClick = (name, e) => {
         console.log(name, 'clicked', e);
     }
@@ -99,4 +99,4 @@ function App() {
     );
 }
 
-export default App;
+export default Day1;
