@@ -51,10 +51,18 @@ function Day1() {
         'age': 22
     })
     const editFrom = () => {
-        setFrom({
-            ...from,
-            'name': '222'
-        })
+        if (from.name === '111') {
+            setFrom({
+                ...from,
+                'name': '222'
+            })
+        }else if(from.name === '222') {
+            setFrom({
+                ...from,
+                'name': '111'
+            })
+        }
+
     }
     return (
         <div className="App">
