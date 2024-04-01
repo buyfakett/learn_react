@@ -1,9 +1,16 @@
 import {useRef, useState} from "react";
 
-function Day2(){
-    const [value,setValue] = useState('')
+function Son(props) {
+    return (
+        <div>this is son, {props.name}</div>
+    )
+}
+
+function Day2() {
+    const [value, setValue] = useState('')
     const inputRef = useRef(null)
-    const showDOM = ()=>{
+    const name = 'test push data'
+    const showDOM = () => {
         console.dir(inputRef.current)
     }
     return (
@@ -11,11 +18,14 @@ function Day2(){
             {/*受控表单绑定*/}
             <input type="text"
                    value={value}
-                   onChange={(e)=>setValue(e.target.value)}/>
+                   onChange={(e) => setValue(e.target.value)}/>
 
             {/*获取DOM*/}
             <input type="text" ref={inputRef}/>
             <button onClick={showDOM}>获取DOM</button>
+
+            {/*组件之间传递数据*/}
+            <Son name={name}/>
         </div>
     )
 }
