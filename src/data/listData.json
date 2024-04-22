@@ -1,0 +1,74 @@
+{
+  "code": 0,
+  "message": "查询成功",
+  "data": {
+    "items": [
+      {
+        "id": 6,
+        "hostname": "数据1",
+        "remote_host": "1",
+        "local_host": "",
+        "cpu": null,
+        "mem": null,
+        "disk": "",
+        "password": "",
+        "note": "",
+        "tag": "",
+        "in_use": false
+      },
+      {
+        "id": 4,
+        "hostname": "数据2",
+        "remote_host": "2",
+        "local_host": null,
+        "cpu": 69,
+        "mem": null,
+        "disk": null,
+        "password": "laborum",
+        "note": "ipsum",
+        "tag": "test2",
+        "in_use": true
+      },
+      {
+        "id": 3,
+        "hostname": "数据3",
+        "remote_host": null,
+        "local_host": null,
+        "cpu": 69,
+        "mem": null,
+        "disk": null,
+        "password": "laborum",
+        "note": "ipsum",
+        "tag": "test2",
+        "in_use": true
+      },
+      {
+        "id": 2,
+        "hostname": "数据4",
+        "remote_host": null,
+        "local_host": null,
+        "cpu": 69,
+        "mem": null,
+        "disk": null,
+        "password": "laborum",
+        "note": "ipsum",
+        "tag": "test",
+        "in_use": true
+      },
+      {
+        "id": 1,
+        "hostname": "数据5",
+        "remote_host": null,
+        "local_host": null,
+        "cpu": 69,
+        "mem": null,
+        "disk": null,
+        "password": "laborum",
+        "note": "ipsum",
+        "tag": "test",
+        "in_use": true
+      }
+    ],
+    "total": 5
+  }
+}
